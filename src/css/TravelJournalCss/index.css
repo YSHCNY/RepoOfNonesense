@@ -1,0 +1,180 @@
+
+
+
+/* Header */
+
+
+
+html, body {
+    margin: 0;
+}
+
+body{
+   font-family: 'Inter', sans-serif;
+}
+
+
+/* TravelJournal css Start*/
+.container {
+    margin: 45px 40px;
+}
+
+
+.NavHeader{
+  color: #fff;
+  background-color: #F55A5A;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 55px;
+  font-size: 14.46px;
+  font-weight: 500;
+
+}
+
+.JournalEntry{
+  margin-inline: 45px;
+  margin-block: 50px;
+  display: flex;
+  color: #2B283A;
+  gap: 19px;
+}
+
+.JournalImgContainer{
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  overflow: hidden;
+  flex-shrink: 0;
+
+}
+
+.JournalImgContainer > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+.JournalMainContent{
+  margin-top: 5px;
+
+}
+
+.JournalMainContent .JournalCountry{
+  margin-left: 5px;
+  margin-right: 15px;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  
+
+}
+
+
+.JournalMainContent .JournalLink{
+  color: #918E9B;
+  font-size: 12px;
+
+}
+
+.JournalMainContent .JournalPlace{
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 4px;
+   margin-bottom: -9px;
+}
+
+.JournalMainContent .JournalTripDates{
+  font-size: 12px;
+  margin-bottom: 9px;
+
+
+}
+
+
+.JournalMainContent .JournalDesc{
+   line-height: 1.5;
+    font-size: 0.8rem;
+     display: -webkit-box;
+      -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; 
+       overflow: hidden; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* static page css start */
+
+/* .NavClass{
+  display: flex;
+  align-items: center;
+  gap: .5%;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  height: 100%; 
+
+  background-color: #21222a;
+}
+
+.ReactLogo{
+  width: 30px;
+}
+
+.ReactLogoTitle{
+  color: #5fd5f4;
+}
+
+ul{
+  margin-top: 2rem;
+}
+ li::marker{
+  color: #5fd5f4;
+  font-size: 1rem;
+}
+
+li{
+  margin-block: 1rem;
+
+}
+
+main {
+  padding: 2rem;
+  background-image: url('./images/half-logo.png');
+  background-repeat: no-repeat;
+  background-position: right center ;
+  background-size: auto 80%;
+
+  
+  
+}
+
+span{
+  font-size: 2rem;
+  font-weight: bold;
+ 
+} */
+
+/* static page css end */
+
+
+
+
+/* travel journal css start */

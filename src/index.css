@@ -1,0 +1,66 @@
+
+
+:root {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #282d35;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.NavClass{
+  display: flex;
+  align-items: center;
+  gap: .5%;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  height: 100%; 
+
+  background-color: #21222a;
+}
+
+.ReactLogo{
+  width: 30px;
+}
+
+.ReactLogoTitle{
+  color: #5fd5f4;
+}
+
+ul{
+  margin-top: 2rem;
+}
+ li::marker{
+  color: #5fd5f4;
+  font-size: 1rem;
+}
+
+li{
+  margin-block: 1rem;
+
+}
+
+main {
+  padding: 2rem;
+  background-image: url('./images/half-logo.png'); /* Update with your image path */
+  background-repeat: no-repeat;
+  background-position: right center ;
+  background-size: auto 80%;
+
+  
+  
+}
+
+span{
+  font-size: 2rem;
+  font-weight: bold;
+ 
+}

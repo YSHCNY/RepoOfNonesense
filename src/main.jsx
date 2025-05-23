@@ -7,7 +7,8 @@ import App from './App'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-      <App />
+      {/* Static Phaseended @05/23/2025 */}
+       <App /> 
 
   </StrictMode>
 )

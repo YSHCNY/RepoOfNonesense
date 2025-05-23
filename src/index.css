@@ -7,7 +7,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #282d35;
+  background-color: rgba(255, 255, 255, 255);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,7 +16,9 @@
 }
 
 
-.NavClass{
+/* static page css start */
+
+/* .NavClass{
   display: flex;
   align-items: center;
   gap: .5%;
@@ -50,7 +52,7 @@ li{
 
 main {
   padding: 2rem;
-  background-image: url('./images/half-logo.png'); /* Update with your image path */
+  background-image: url('./images/half-logo.png');
   background-repeat: no-repeat;
   background-position: right center ;
   background-size: auto 80%;
@@ -63,4 +65,11 @@ span{
   font-size: 2rem;
   font-weight: bold;
  
-}
+} */
+
+/* static page css end */
+
+
+
+
+/* travel journal css start */

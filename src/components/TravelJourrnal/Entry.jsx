@@ -33,3 +33,15 @@ export default function Entry(props){
     
     </>
 }
+
+// Importing the Entry component in App.jsx would look like this: 
+// Mapping through the travelentry data to create Entry components for each entry:
+
+//   const countries = travelentry.map(entry =>{
+//     return(
+//       <Entry
+//         key={entry.id}
+//        entry={entry}
+//       />  
+//     )
+//   })

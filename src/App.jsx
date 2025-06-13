@@ -17,12 +17,7 @@ export default function App(){
     return(
       <Entry
         key={entry.id}
-        country={entry.country}
-        place={entry.title}
-        tripDates={entry.dates}
-        description={entry.text}
-        img={entry.img}
-        googleMapsLink={entry.googleMapsLink}
+       entry={entry}
       />  
     )
   })

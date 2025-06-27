@@ -6,7 +6,10 @@ export default function BodyDiv() {
    
        function handleSubmit(event){
         event.preventDefault();
-        console.log("iwas clicked");
+        const formData = new FormData(event.target);
+        const newIngredient = formData.get("ingredient");
+        ingredients.push(newIngredient);
+        console.log(ingredients);
       }
 
 

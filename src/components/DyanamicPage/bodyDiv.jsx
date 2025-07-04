@@ -21,7 +21,7 @@ export default function BodyDiv() {
                 placeholder="e.g. paprika"
                 name = "ingredient"
                 />
-
+  
                 <button type = "submit" className="BodyDivButton">
                     + Add Ingredient
                 </button>
